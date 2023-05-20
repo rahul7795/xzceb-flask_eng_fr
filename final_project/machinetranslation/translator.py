@@ -18,7 +18,7 @@ language_translator.set_service_url(url)
 
 
 def english_to_french(english_text: str):
-    """Function takes the string in englsh and return translated string in french"""
+    """Function takes the string in english and return translated string in french"""
     try:
         translation = language_translator.translate(
             text=english_text,
